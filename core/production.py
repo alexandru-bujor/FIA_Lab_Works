@@ -1,5 +1,6 @@
 # import re
-import sys
+import sys, os
+sys.path.append(os.path.abspath("../core"))
 if sys.version[0]=='2':
     import re
   

@@ -1,3 +1,8 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "core")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "task2_rules")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "task5_question_generation")))
+
 # TODO: add your imports here:
 # from rules import my_rules
 
