@@ -1,0 +1,23 @@
+%% Task 1 - Goal Tree (visual draft)
+%% Render this at https://mermaid.live or via a Mermaid-compatible viewer.
+%% One branch (Earther Sightseer) is fully worked out as an example.
+%% Add the remaining five branches yourself, following the same pattern.
+
+graph TD
+    person[person]
+
+    person --> is_loonie[is a Loonie]
+    person --> is_tourist[is a tourist]
+
+    is_loonie --> loonie_facts[fast adapted gait AND at least 1.8m tall AND straight posture AND lean build AND supports lunar autonomy AND reacts negatively to repatriation talk]
+
+    is_tourist --> tourist_base[unadapted gait AND Earther accent AND unfamiliar with corridors]
+
+    tourist_base --> earther_sightseer[Earther Sightseer]
+    earther_sightseer --> es_clues[photographs everything AND asks about attractions AND exaggerated amazement AND first time off world]
+
+    tourist_base --> TYPE_2[Belt Miner on Leave - fill in clues]
+    tourist_base --> TYPE_3[Corporate Auditor - fill in clues]
+    tourist_base --> TYPE_4[Honeymooners - fill in clues]
+    tourist_base --> TYPE_5[Rock-hound Collector - fill in clues]
+    tourist_base --> TYPE_6[Repatriation Relative - fill in clues]
